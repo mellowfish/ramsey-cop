@@ -1,4 +1,6 @@
-require: rubocop-performance
+require:
+  - rubocop-performance
+  - ramsey_cop/cop/style/multi_line_method_chains.rb
 
 AllCops:
   Exclude:
